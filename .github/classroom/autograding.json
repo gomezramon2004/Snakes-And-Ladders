@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "test1",
+      "setup": "make appTests",
+      "run": "./build/appTests ex0",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "test2",
+      "setup": "",
+      "run": "./build/appTests ex1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "test3",
+      "setup": "",
+      "run": "./build/appTests ex2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "test4",
+      "setup": "",
+      "run": "./build/appTests ex3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
